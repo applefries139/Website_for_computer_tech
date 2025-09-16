@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap');
+p{
+color:#a67c52
+}
+
+
+
+.nav-btn {
+  background-color: #c49e77;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.nav-btn:hover {
+  background-color: #916a3d;
+  transform: scale(1.05);
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fffaf7;
+  color: #3a2e2e;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color:#3a2e2e
+}
+
+nav {
+  background-color: #eacfa0;
+  border-bottom: 1px solid #edb48e;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+}
+li{
+border-radius: 30px;
+
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3a2e2e;
+  font-weight: bold;
+  font-size: 1em;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #a67c52;
+}
+
+.hero {
+  background-image: url('hero-brows.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+.hero h3 {
+  font-size: 1.5em;
+  margin: 40px ;
+}
+
+.intro {background: #f1eeeb;
+    padding: 40px;
+    margin: 80px,70px,70px,80px;
+    max-width: 700px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.3s, transform 0.2s;}
+
+.step1{
+  margin-top:10px;
+  margin-bottom:10px;
+
+
+
+}
+
+.img{
+margin-top:10px;
+margin-bottom:10px;
+
+
+
+}
+
+.makeimgsmaller{
+width:800px;
+height:auto;
+margin-bottom:20px;
+
+
+}
+.img2 img{
+width:600px;
+height:300px;
+object-fit: cover;
+margin-bottom:20px;
+
+
+}
+
+
+.img3 img{
+width:600px;
+height:300px;
+object-fit:cover;
+margin-bottom:20px;
+
+
+}
+
+
+.img4 img{
+width:600px;
+height:300px;
+object-fit:cover;
+margin-bottom:20px;
+
+
+}
+
+

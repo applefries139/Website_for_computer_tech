@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Eyebrow Reveal</title>
+    <link rel="stylesheet" href="Aboutus.css" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html" class="nav-btn">Homepage</a></li>
+            <li><a href="Aboutus.html" class="nav-btn">About us</a></li>
+            <li><a href="materials.html" class="nav-btn">Materials</a></li>
+            
+           
+
+
+
+
+        </ul>
+    </nav>
+
+
+    <section class="headingtopofweb">
+        <h1>About us</h1>
+        <p>
+            Who are we? Err, actually I'm a 14-year-old girl — wait before you leave,
+            let me tell you why you should trust a 14-year-old girl to tweak your eyebrows.
+            In all honesty, I’m a South Asian girl who was given the most horrendous eyebrows ever.
+        </p>
+    </section>
+
+    <div class="reveal-block" onclick="showImage()">
+        <h2>Click to see what I mean...</h2>
+    </div>
+
+    <img src="embarrassing_eyebrows_website.jpg" alt="Embarrassing brows" id="brow-img" class="hidden" />
+
+    <script>
+        function showImage() {
+            const img = document.getElementById("brow-img");
+            img.classList.toggle("visible");
+        }
+    </script>
+    
+    <section class="newbrows">
+        <h3> JUMPSCARE! </h3>
+        <p> isn't it? well ill show you something that isnt scary,
+        (well maybe how scary the difference is)
+        </p>
+   </section>
+
+   <div class="reveal-block2" onclick="showImage2()">
+       <h2> click to see what i mean!</h2>
+    </div>
+    <img src="my_good_eyebrows_website.jpg" alt=" good brows " id="brow-img-2" class="hidden"/>
+
+    <script>
+  function showImage2() {
+    const img2 = document.getElementById("brow-img-2");
+    img2.classList.toggle("visible");
+  }
+    </script>
+
+    <div class="compareandcontrast">
+     <p> done comparing and/or contrasting, do you trust me now.. i mean id hope 
+        so i just showed you my horrendous previous eyebrows... Okay are you ready to learn the secrets?
+        just press homepage and it will lead you to the instructions!
+     </p>   
+        
+    </div>
+  
+</body>
+
+</html>
